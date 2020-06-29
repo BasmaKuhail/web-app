@@ -1,23 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import ebay from './ebay.png';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
+        <img src={ebay} className='logo' alt='logo' />
+        {/* <img src={require('./ebay.png')} className='App-logo' alt='logo' /> */}
+
+        <p className='p'>shop by category</p>
+        <input className='search'></input>
       </header>
     </div>
   );
